@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="custom.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="title">
+       Random password Generator
+    </div>
+    <div id="container">
+        <div id="passwordDisplay">
+            Enter Details
+        </div>
+        <div id="contents">
+            <div id="passlength">
+                <label for="inputfield">Enter password Length(max.20 characters)</label>
+                <input type="number" id="inputfield">
+            </div>
+            <div id="checkboxes">
+                <input type="checkbox" name="" id="upper"  class="lists">
+                <label for="upper">Upper Case</label><br>
+                <input type="checkbox" name="" id="lower" class="lists">
+                <label for="lower">lower Case</label><br>
+                <input type="checkbox" name="" id="number" class="lists">
+                <label for="number">Numbers</label><br>
+                <input type="checkbox" name="" id="symbol" class="lists">
+                <label for="symbol">Special characters</label>
+            </div>
+            <div class="btn">
+                <button id="btn">Generate</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

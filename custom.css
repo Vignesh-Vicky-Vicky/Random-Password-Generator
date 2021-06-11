@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{  
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    display: flex;
+    min-height: 100vh;
+    font-family: 'poppins';
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title{
+    margin-bottom: 70px;
+    font-size: 60px;
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(233, 156, 13, 0.787);
+    padding-bottom: 20px;
+    text-shadow: 5px 4px 4px rgb(0, 0, 0);
+}
+
+#container{
+    background-color: #ecf0f1;
+    padding: 3rem;
+    width: 550px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0,0,0.2);
+    border-radius: 10px;
+}
+#passwordDisplay{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0,0,0.2);
+    border-radius: 8px;
+    padding: 20px 15px;
+    font-weight: bold;
+    height: 90px;
+    overflow: hidden;
+}
+#contents{
+    border-top: 1px solid black;
+    padding: 10px;
+}
+#passlength{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#passlength input{
+    padding: 5px;
+    font-size: 18px;
+    width: 50px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#passlength input::-webkit-outer-spin-button,#passlength 
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#checkboxes{
+    font-size: 18px;
+}
+#checkboxes label{
+    cursor: pointer;
+}
+
+.lists{
+    margin: 20px 5px;
+}
+
+#btn{
+    width: 100%;
+    padding: 20px 0;
+    font-size: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    letter-spacing: 1.8px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: #0958ac;
+}
